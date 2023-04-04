@@ -4,15 +4,7 @@
       <div class="card">
         <img src="@/assets/img/1.jpg" class="avtar" alt="" />
         <div class="name">源</div>
-        <a href="https://github.com/Y-Ace" target="_blank">https://github.com/Y-Ace</a>
-        <!-- <div class="counter">
-          <span>文章</span>
-          <span>分类</span>
-        </div>
-        <div class="counter">
-          <span>1662</span>
-          <span>1</span>
-        </div> -->
+        <a href="https://github.com/Y-Ace" target="_blank" rel="noreferrer noopener">https://github.com/Y-Ace</a>
         <div class="article">
           <div class="article-title">文章</div>
           <div class="article-number">1662</div>

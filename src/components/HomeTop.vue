@@ -6,6 +6,7 @@
     </div>
     <div class="nav-right">
       <router-link to="/index">主页</router-link>
+      <router-link to="/works/my-works">我的作品</router-link>
       <router-link to="">写博客</router-link>
       <router-link to="">退出登录</router-link>
     </div>

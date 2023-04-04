@@ -18,4 +18,8 @@
 html, body, #app{
   height: 100%;
 }
+a{
+  text-decoration: none;
+  color: #000;
+}
 </style>
