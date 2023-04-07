@@ -2,63 +2,63 @@
   <div class="works">
     <div class="list">
       <div class="item">
-        <img src="@/assets/img/works/1.webp" alt="">
+        <img v-lazy="require('@/assets/img/works/1.webp')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/2.jpg" alt="">
+        <img v-lazy="require('@/assets/img/1.gif')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/bg.jpeg" alt="">
+        <img v-lazy="require('@/assets/img/bg.jpeg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/works/1.webp" alt="">
+        <img v-lazy="require('@/assets/img/works/1.webp')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/2.jpg" alt="">
+        <img v-lazy="require('@/assets/img/2.jpg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/bg.jpeg" alt="">
+        <img v-lazy="require('@/assets/img/bg.jpeg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/works/1.webp" alt="">
+        <img v-lazy="require('@/assets/img/works/1.webp')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/2.jpg" alt="">
+        <img v-lazy="require('@/assets/img/2.jpg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/bg.jpeg" alt="">
+        <img v-lazy="require('@/assets/img/bg.jpeg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/works/1.webp" alt="">
+        <img v-lazy="require('@/assets/img/works/1.webp')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/2.jpg" alt="">
+        <img v-lazy="require('@/assets/img/2.jpg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/bg.jpeg" alt="">
+        <img v-lazy="require('@/assets/img/bg.jpeg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/works/1.webp" alt="">
+        <img v-lazy="require('@/assets/img/works/1.webp')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/2.jpg" alt="">
+        <img v-lazy="require('@/assets/img/2.jpg')" alt="">
         <div class="name">name</div>
       </div>
       <div class="item">
-        <img src="@/assets/img/bg.jpeg" alt="">
+        <img v-lazy="require('@/assets/img/bg.jpeg')" alt="">
         <div class="name">name</div>
       </div>
     </div>
@@ -98,9 +98,10 @@ import 'element-plus/theme-chalk/display.css'
         width: 100%;
         height: 100%;
       }
-      .name{
+
+      .name {
         padding: 15px;
-        word-break:break-all;
+        word-break: break-all;
       }
 
       &:hover {
@@ -108,4 +109,5 @@ import 'element-plus/theme-chalk/display.css'
       }
     }
   }
-}</style>
+}
+</style>
